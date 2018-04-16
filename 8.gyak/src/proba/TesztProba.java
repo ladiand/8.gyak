@@ -4,6 +4,8 @@ import harmadik.Szinespont;
 
 import java.awt.Color;
 
+import org.omg.CORBA.PUBLIC_MEMBER;
+
 import sajat.ISzinezheto;
 
 public class TesztProba {
@@ -17,6 +19,9 @@ public class TesztProba {
 	System.out.println();
 	szinespont.setSzin(Color.GREEN);
 	System.out.println(szinespont);
+	
+	public static void setDefaultSzin(ISzinezheto objektum);
+		objektum.setSzin(objektum.alapertelmezettSzin);
 	}
 
 }
